@@ -10,7 +10,7 @@ digital-detective/data_digger CLI is built for searching many API's for informat
 
 1. Clone the repository and open it
 ```bash
-git clone https://gitea.kood.tech/andreskozelkov/digital-detective.git
+git clone https://github.com/Tykion/digital-detective.git
 
 cd digital-detective
 ```
@@ -32,7 +32,7 @@ pip install -r requirements.txt
 ```bash
 USER_AGENT={Any way the api can know who you are}
 or
-USER_AGENT=https://gitea.kood.tech/andreskozelkov/digital-detective
+USER_AGENT=https://github.com/Tykion/digital-detective.git
 ```
 6. Now that the setup is done we can run the CLI tool
 ```bash
@@ -101,3 +101,4 @@ $ python data_digger.py -n "Dwight Schrute" -ip "8.8.8.8"
     Location: source1: 37.4056,-122.0775 / source2: 39.03,-77.5 / source3: 37.3860517,-122.0838511, mismatch
     Results written to fie: ip_8.8.8.8.txt
 ```
+
